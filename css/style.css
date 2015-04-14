@@ -2,29 +2,50 @@ a{
     text-decoration: none;
 }
 
+article{
+    padding: 40px;
+}
+
 body{
-    margin: 0;
-    padding: 0;
+  margin: 0 auto;
+  max-width: 900px;
+  padding: 40px 20px 20px 20px;
+  font-family: sans-serif;
+  line-height: 140%;
 }
 
 h1{
     text-align: center;
-    color: #328723;
     font-family: cursive;
-    height: 100px;
+    height: 60px;
 }
 
 h2{
     text-align: center;
-    background: #986273;
     border-radius: 20px 10px;
-    width: 35%;
+    width: 50%;
 }
 
 nav{
     text-align: center;
     background-color: #568977;
-    padding: 8px;
+    padding: 4px;
+    font-size: 20px;
+}
+
+p{
+    text-indent: 20px;
+}
+
+table, td{
+    background-color: #000;
+    border: 20px solid #fff;
+    color: #fff;
+}
+
+td{
+    background-color: #fff;
+    color: #000;
 }
 
 ul{
@@ -40,12 +61,13 @@ ul{
 
 .conten-foto img{
     vertical-align: middle;
+    width: 100%;
 }
 
 .conten-datos{
     width: 49%;
     display: inline-block;
-    text-align: center;
+    text-align: justify;
     color: #333;
 }
 
@@ -53,22 +75,103 @@ ul{
     font-weight: bold;
     font-size: 18px;
     color: #328723;
+    border-radius: 30px;
 }
 
 .conten-estudios{
     background-color: #456;
+    box-shadow: 25px 25px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.conten-hab1{
+    background-color: #088A29;
     border-color: #876;
+    padding: 20px;
+}
+
+.conten-hab2{
+    background-color: #456;
+    border-color: #876;
+    padding: 20px;
+    text-indent: 20%;
+}
+
+.conten-hab3{
+    background-color: #088A29;
+    border-color: #876;
+    padding: 20px;
+    text-indent: 45%;
+}
+
+.conten-hab4{
+    background-color: #456;
+    border-color: #876;
+    padding: 20px;
+    text-indent: 70%;
+}
+
+.conten-ex{
+    border: 20px solid #CCC;
+    height: 300px;
+    padding: 20px;
+    position: relative;
+}
+
+.conten-ex img{
+    position: absolute;
+    width: 10%;
+    right: 50px;
+}
+
+.estudios h2{
+    text-align: center;
+    background-color: #BDBDBD;
+}
+
+.habilidades h2{
+    text-align: center;
+    background-color: #BDBDBD;
+}
+
+.experiencia h2{
+    text-align: center;
+    background-color: #BDBDBD;
+}
+
+.ja{
+    text-align: center;
+    background-color: #FFF;
+    border-radius: 12px 120px;
+}
+
+.estudios-estudios h2{
+    text-align: center;
+    background-color: #328723;
 }
 
 .menu li{
     display: inline-block;
-    margin-right: 16px;
+    background-color: #568977;
 }
 
 .menu li a{
-    color: #fefefe;
+    color: #000;
     font-family: sans-serif;
     text-shadow: 3px 3px 5px #000;
+}
+
+.conten-input{
+    padding: 8px;
+    text-align: center;
+}
+
+.conten-input input,textArea{
+    width: 80%;
+    background-color: #fff;
+    border: 1px solid #DDD;
+    padding: 4px;
 }
 
 #datos{
@@ -86,14 +189,6 @@ ul{
     vertical-align: middle;
 }
 
-.conten-input{
-    padding: 8px;
+#pie{
     text-align: center;
-}
-
-.conten-input input,textArea{
-    width: 80%;
-    background-color: #fff;
-    border: 1px solid #DDD;
-    padding: 4px;
 }
